@@ -1,0 +1,53 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.product-grid{
+    background: #fff;
+    padding:20px;
+    perspective: 1000px;
+    box-shadow: 0px -6px 10px rgba(0,0,0,0.9) , 0px 4px 15px rgba(0,0,0,0.15);
+}
+
+.product-grid h1{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+.product-grid h2{
+    
+    font-size: 20px;
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+#navHeader{
+ float: right;
+ vertical-align: middle;
+ margin-top: 5px;
+ color: #222;
+}
+
+ .navbar{
+  padding: .8rem;
+}
+ .navbar-nav li{
+  padding-right:  20px;
+}
+.nav-link{
+  font-size: 1.1em;
+}
+.image-container {
+    position: relative;
+}
+.image-container :hover .image{
+    transform: rotateY(180deg);
+}
+.image{
+    transform: transform 1s;
+    transform-style: preserve-3d;
+}
+.col-12 h2{
+    margin-top: 200px;
+}

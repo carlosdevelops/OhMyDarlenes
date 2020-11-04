@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+#navHeader{
+ float: right;
+ vertical-align: middle;
+ margin-top: 5px;
+ color: #222;
+}
+
+ .navbar{
+  padding: .8rem;
+}
+ .navbar-nav li{
+  padding-right:  20px;
+}
+.nav-link{
+  font-size: 1.1em;
+}
+.col-12 h2{
+    margin-top: 300px;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+.row{
+    text-align: center;
+}
+#centerr{
+    margin-left: auto;
+    margin-right: auto;
+}
